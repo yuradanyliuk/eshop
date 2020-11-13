@@ -12,9 +12,9 @@
         <div class="row">
             <div class="col-6">
                 <h1>
-                    <span class="text-secondary font-weight-bold">The Best</span><span class="text-success text-uppercase font-weight-bold">Woocommerce</span>
+                    <span class="text-dark text-uppercase font-weight-bold">The Best</span><span class="text-green text-uppercase font-weight-bold">Woocommerce</span>
                 </h1>
-                <p>
+                <p class="font-weight-normal">
                     Lorem ipsum dolor
                     sit amet, consectetur adipisicing elit, sed do
                     eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -30,9 +30,9 @@
 <div id="best-sellers-bg" class="container-fluid d-flex align-items-center">
     <div id="best-sellers-content" class="card-deck">
         <div class="card justify-content-center">
-            <h1 class="text-body text-uppercase font-weight-bold">Best sellers</h1>
-            <p class="text-success">The best productions from us</p>
-            <p>
+            <h3 class="text-body text-uppercase font-weight-bold">Best sellers</h3>
+            <p class="text-green font-italic small">The best productions from us</p>
+            <p class="small">
                 Lorem ipsum dolor
                 sit amet, consectetur adipisicing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -41,33 +41,57 @@
         <div class="card">
             <img src="~/images/card.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is </p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                <h6 class="card-title">Card title</h6>
+                <p class="card-text text-green small">$250.00 </p>
+                <p class="card-text small text-warning">
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </p>
             </div>
         </div>
         <div class="card">
-            <img src="~/images/card.jpg" class="card-img-top" alt="...">
+            <img src="images/card.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is </p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                <h6 class="card-title">Card title</h6>
+                <p class="card-text text-green small">$250.00 </p>
+                <p class="card-text small text-warning">
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </p>
             </div>
         </div>
         <div class="card">
-            <img src="~/images/card.jpg" class="card-img-top" alt="...">
+            <img src="images/card.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is </p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                <h6 class="card-title">Card title</h6>
+                <p class="card-text text-green small">$250.00 </p>
+                <p class="card-text small text-warning">
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </p>
             </div>
         </div>
         <div class="card">
-            <img src="~/images/card.jpg" class="card-img-top" alt="...">
+            <img src="images/card.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is </p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                <h6 class="card-title">Card title</h6>
+                <p class="card-text text-green small">$250.00 </p>
+                <p class="card-text small text-warning">
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </p>
             </div>
         </div>
     </div>
@@ -75,22 +99,30 @@
 <div id="fastest-shipping" class="container-fluid">
     <div class="row text-center">
         <div class="col-xl">
-            <img src="~/images/diamond.png" alt="">
-            <span class="d-block text-body text-uppercase font-weight-bold">Special offers</span>
+            <div id="diamond" class="d-flex align-items-center justify-content-center">
+                <img src="~/images/diamond.png" alt="...">
+            </div>
+            <span class="d-block text-body text-uppercase font-weight-bold position-relative">Special offers</span>
             <p class="text-secondary small">Shop Big Save Big</p>
         </div>
         <div class="col-xl">
-            <img src="~/images/plane.png" alt="">
+            <div id="plane" class="d-flex align-items-center justify-content-center">
+                <img src="~/images/plane.png" alt="...">
+            </div>
             <span class="d-block text-body text-uppercase font-weight-bold">Free delivery</span>
             <p class="text-secondary small">On Orders Above $99</p>
         </div>
         <div class="col-xl">
-            <img src="~/images/share.png" alt="">
+            <div id="share" class="d-flex align-items-center justify-content-center">
+                <img src="~/images/share.png" alt="...">
+            </div>
             <span class="d-block text-body text-uppercase font-weight-bold">30 Days Return</span>
             <p class="text-secondary small">Policy We Offers</p>
         </div>
         <div class="col-xl">
-            <img src="~/images/rocket.png" alt="">
+            <div id="rocket" class="d-flex align-items-center justify-content-center">
+                <img src="~/images/rocket.png" alt="...">
+            </div>
             <span class="d-block text-body text-uppercase font-weight-bold">Fastest Shipping</span>
             <p class="text-secondary small">2 Days Express</p>
         </div>
@@ -98,16 +130,18 @@
 </div>
 <div id="fashion-styles-content" class="container-fluid">
     <div class="row text-center">
-        <div id="summer-and-autumn" class="col"><img class="fashion-styles" src="~/images/summer-and-autumn.png" alt=""></div>
-        <div id="new-fashion-styles" class="col"><img class="fashion-styles" src="~/images/new-fashion-styles.png" alt=""></div>
-        <div id="winter-collection" class="col"><img class="fashion-styles" src="~/images/winter-collection.png" alt=""></div>
+        <div id="summer-and-autumn" class="col"><img class="fashion-styles" src="~/images/summer-and-autumn.png" alt="..."></div>
+        <div id="new-fashion-styles" class="col"><img class="fashion-styles" src="~/images/new-fashion-styles.png" alt="..."></div>
+        <div id="winter-collection" class="col"><img class="fashion-styles" src="~/images/winter-collection.png" alt="..."></div>
     </div>
 </div>
+
+
 <div id="featured-products" class="container-fluid text-center">
     <div class="row">
         <div class="col-xl-12">
             <h1 id="featured-products-label" class="text-uppercase mb-1">Featured products</h1>
-            <div id="featured-products-sublabel">Newest trends from top brands</div>
+            <div id="featured-products-sublabel" class="font-italic">Newest trends from top brands</div>
         </div>
     </div>
 </div>
@@ -116,41 +150,71 @@
         <div class="card">
             <img src="~/images/card.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is </p>
-                <p class="card-text"><small class="text-muted">Last updated</small></p>
+                <h6 class="card-title">Card title</h6>
+                <p class="card-text text-green small">$250.00 </p>
+                <p class="card-text small text-warning">
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </p>
             </div>
         </div>
         <div class="card">
             <img src="~/images/card.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is </p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                <h6 class="card-title">Card title</h6>
+                <p class="card-text text-green small">$250.00 </p>
+                <p class="card-text small text-warning">
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </p>
             </div>
         </div>
         <div class="card">
-            <img src="~/images/image.png" class="card-img-top" alt="...">
+            <img src="~/images/card.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is </p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                <h6 class="card-title">Card title</h6>
+                <p class="card-text text-green small">$250.00 </p>
+                <p class="card-text small text-warning">
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </p>
             </div>
         </div>
         <div class="card">
-            <img src="~/images/image.png" class="card-img-top" alt="...">
+            <img src="~/images/card.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is </p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                <h6 class="card-title">Card title</h6>
+                <p class="card-text text-green small">$250.00 </p>
+                <p class="card-text small text-warning">
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </p>
             </div>
         </div>
         <div class="card">
-            <img src="~/images/image.png" class="card-img-top" alt="...">
+            <img src="~/images/card.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is </p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                <h6 class="card-title">Card title</h6>
+                <p class="card-text text-green small">$250.00 </p>
+                <p class="card-text small text-warning">
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </p>
             </div>
         </div>
     </div>
@@ -158,41 +222,71 @@
         <div class="card">
             <img src="~/images/card.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is </p>
-                <p class="card-text"><small class="text-muted">Last updated</small></p>
+                <h6 class="card-title">Card title</h6>
+                <p class="card-text text-green small">$250.00 </p>
+                <p class="card-text small text-warning">
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </p>
             </div>
         </div>
         <div class="card">
             <img src="~/images/card.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is </p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                <h6 class="card-title">Card title</h6>
+                <p class="card-text text-green small">$250.00 </p>
+                <p class="card-text small text-warning">
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </p>
             </div>
         </div>
         <div class="card">
-            <img src="~/images/image.png" class="card-img-top" alt="...">
+            <img src="~/images/card.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is </p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                <h6 class="card-title">Card title</h6>
+                <p class="card-text text-green small">$250.00 </p>
+                <p class="card-text small text-warning">
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </p>
             </div>
         </div>
         <div class="card">
-            <img src="~/images/image.png" class="card-img-top" alt="...">
+            <img src="~/images/card.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is </p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                <h6 class="card-title">Card title</h6>
+                <p class="card-text text-green small">$250.00 </p>
+                <p class="card-text small text-warning">
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </p>
             </div>
         </div>
         <div class="card">
-            <img src="~/images/image.png" class="card-img-top" alt="...">
+            <img src="~/images/card.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is </p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                <h6 class="card-title">Card title</h6>
+                <p class="card-text text-green small">$250.00 </p>
+                <p class="card-text small text-warning">
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </p>
             </div>
         </div>
     </div>
@@ -208,35 +302,33 @@
                         register your email for news and special offers
                     </p>
                 </div>
-                <form class="form-inline">
-                    <div id="email-form" class="form-group mx-sm-3 mb-2">
-                        <input id="coupon-email-input" type="email" class="form-control inp-form" id="inputEmail" placeholder="E-mail address ...">
-                    </div>
-                    <button id="coupon-button" type="submit" class="btn btn-primary mb-2 inp-form text-uppercase">Get coupon now</button>
+                <form id="email-form" class="form-inline d-flex justify-content-between align-items-center w-100">
+                    <input id="coupon-email-input" type="email" class="form-control inp-form" id="inputEmail" placeholder="E-mail address ...">
+                    <button id="coupon-button" type="submit" class="btn btn-primary inp-form text-uppercase">Get coupon now</button>
                 </form>
             </div>
         </div>
         <div id="coupon-sub-img" class="col-xl-6">
             <div class="row h-100 align-items-center">
-                <div class="col-md-3"><img src="~/images/retrodesign.png" alt=""></div>
-                <div class="col-md-3"><img src="~/images/restaurant.png" alt=""></div>
-                <div class="col-md-3"><img src="~/images/oceandor.png" alt=""></div>
-                <div class="col-md-3"><img src="~/images/designstudio.png" alt=""></div>
+                <div class="col-md-3 d-flex justify-content-center"><img src="~/images/retrodesign.png" alt="..."></div>
+                <div class="col-md-3 d-flex justify-content-center"><img src="~/images/restaurant.png" alt="..."></div>
+                <div class="col-md-3 d-flex justify-content-center"><img src="~/images/oceandor.png" alt="..."></div>
+                <div class="col-md-3 d-flex justify-content-center"><img src="~/images/designstudio.png" alt="..."></div>
             </div>
         </div>
     </div>
 </div>
 <div id="connect-with" class="container-fluid">
     <div class="row h-100">
-        <div class="col-7 h-100 d-flex align-items-center justify-content-center border-bottom">We’re confident we’ve provided all the best for you. Stay connect with us.</div>
-        <div class="col-2 d-flex p-0 justify-content-around h-100 align-items-center border-top-0">
+        <div id="connect-with-text" class="col-8 h-100 d-flex align-items-center border-bottom small">We’re confident we’ve provided all the best for you. Stay connect with us.</div>
+        <div class="col-2 d-flex p-0 justify-content-around h-100 align-items-center border-top-0 small">
             <i class="fab fa-facebook-f fa-lg"></i>
             <i class="fab fa-twitter fa-lg"></i>
             <i class="fab fa-instagram fa-lg"></i>
             <i class="fab fa-linkedin-in fa-lg"></i>
             <i class="fab fa-behance fa-lg"></i>
         </div>
-        <div class="col-3 h-100 border-bottom"></div>
+        <div class="col-2 h-100 border-bottom"></div>
     </div>
 </div>
 <div id="help-info" class="container-fluid">
@@ -275,7 +367,7 @@
             <ul class="list-group">
                 <li class="list-group-item"><i class="fas fa-globe-asia"></i>1234 Your Address, Country.</li>
                 <li class="list-group-item"><i class="fas fa-phone-alt"></i>+1 234 5678 9999</li>
-                <li class="list-group-item"><i class="fas fa-envelope"></i>mail@domain.com</li>
+                <li class="list-group-item"><i class="fas fa-envelope"></i><span class="text-green">mail@domain.com</span></li>
             </ul>
         </div>
     </div>

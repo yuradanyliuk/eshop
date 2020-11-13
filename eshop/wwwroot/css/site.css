@@ -3,14 +3,17 @@
 html, body {
     font-family: 'Poppins', cursive;
 }
-
-#header-menu-top {
-    height: 60px;
-    background-color: black;
+.text-green{
+    color: #3cb878;
 }
 
-#header-menu-bottom {
-    height: 5em; 
+#header-menu-top{
+    height: 60px;
+    background-color: black;
+    font-size: 10px;
+}
+#header-menu-bottom{
+    height: 100px;
 }
 
 footer {
@@ -18,4 +21,6 @@ footer {
     height: 60px;
     background-color: #000000;
 }
-
+#footer-content{
+    padding: 0 16%;
+}
