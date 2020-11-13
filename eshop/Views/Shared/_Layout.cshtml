@@ -10,28 +10,39 @@
 </head>
 <body>
     <header class="container-fluid bg-dark p-0">
-        <nav id="header-menu-top" class="container-fluid navbar navbar-dark">
-            <p class="navbar-text">
-                +1 123 456 789
-            </p>
+        <nav id="header-menu-top" class="container-fluid navbar navbar-dark align-items-center small">
+            <div class="navbar-text text-light ">
+                <i class="fas fa-phone-alt pl-5 pr-3"></i> +1 123 456 789
+                <i class="px-4">\</i>
+                <i class="fas fa-envelope pr-3"></i> info@company.com
+            </div>
+            <div class="navbar-text text-light">
+                <i class="fab fa-facebook-f fa-lg px-2"></i>
+                <i class="fab fa-twitter fa-lg px-2"></i>
+                <i class="fab fa-instagram fa-lg px-2"></i>
+                <i class="fab fa-linkedin-in fa-lg px-2"></i>
+                <i class="fab fa-behance fa-lg px-2 pr-5"></i>
+            </div>
         </nav>
         <nav id="header-menu-bottom" class="container-fluid navbar navbar-expand-lg navbar-light bg-white">
-            <span class="navbar-text text-uppercase text-body">
-                <span class="text-success font-weight-bold">Renoshop</span>bee
-            </span>
+            <h4 class="navbar-text text-uppercase text-body m-0">
+                <span class="text-green font-weight-bold pl-5">Renoshop</span>bee
+            </h4>
             <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNavAltMarkup">
                 <div class="navbar-nav text-uppercase font-weight-bold">
-                    <a class="nav-item nav-link text-success" href="#">Home <span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link text-body" href="#">Women</a>
-                    <a class="nav-item nav-link text-body" href="#">Men</a>
-                    <a class="nav-item nav-link text-body" href="#">Kids</a>
-                    <a class="nav-item nav-link text-body" href="#">Jewellery</a>
-                    <a class="nav-item nav-link text-body" href="#">Accessories</a>
+                    <a class="nav-item nav-link px-4" href="#"><span class="text-green">Home</span><span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link text-body px-4" href="#">Women</a>
+                    <a class="nav-item nav-link text-body px-4" href="#">Men</a>
+                    <a class="nav-item nav-link text-body px-4" href="#">Kids</a>
+                    <a class="nav-item nav-link text-body px-4" href="#">Jewellery</a>
+                    <a class="nav-item nav-link text-body px-4" href="#">Accessories</a>
                 </div>
             </div>
-            <span class="navbar-text text-uppercase">
-                <span>Renoshop</span>bee
-            </span>
+            <div class="navbar-text text-uppercase small text-dark">
+                <i class="fas fa-shopping-cart px-2"></i>
+                <i class="fas fa-search px-2"></i>
+                <i class="fas fa-bars px-2 pr-5"></i>
+            </div>
         </nav>
     </header>
     <div class="container-fluid p-0">
@@ -41,16 +52,15 @@
     </div>
 
     <footer class="container-fluid">
-        <div class="row h-100">
-            <div class="col-7 h-100 d-flex align-items-center justify-content-center border-bottom">Copyright 2017 RenoshopBee all right reserved  -  Design by BeeStudios</div>
-            <div class="col-2 d-flex p-0 justify-content-around h-100 align-items-center border-top-0">
-                <i class="fab fa-cc-visa fa-2x"></i>
-                <i class="fab fa-cc-paypal fa-2x"></i>
-                <i class="fab fa-amazon fa-2x"></i>
-                <i class="fab fa-cc-mastercard fa-2x"></i>
-                <i class="fab fa-apple-pay fa-2x"></i>
+        <div id="footer-content" class="row h-100 d-flex justify-content-between">
+            <div class="h-100 d-flex align-items-center justify-content-center border-bottom text-secondary">Copyright 2017 RenoshopBee all right reserved  -  Design by BeeStudios</div>
+            <div class="h-100 d-flex align-items-center justify-content-center text-secondary">
+                <i class="fab fa-cc-visa fa-2x px-2"></i>
+                <i class="fab fa-cc-paypal fa-2x px-2"></i>
+                <i class="fab fa-amazon fa-2x px-2"></i>
+                <i class="fab fa-cc-mastercard fa-2x px-2"></i>
+                <i class="fab fa-apple-pay fa-2x px-2"></i>
             </div>
-            <div class="col-3 h-100 border-bottom"></div>
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
