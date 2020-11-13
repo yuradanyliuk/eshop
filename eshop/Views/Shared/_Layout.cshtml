@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="~/css/site.css" />
     @await RenderSectionAsync("Styles", false)
 </head>
-<body>
+<body class="">
     <header class="container-fluid bg-dark p-0">
         <nav id="header-menu-top" class="container-fluid navbar navbar-dark align-items-center small">
             <div class="navbar-text text-light ">
@@ -35,7 +35,7 @@
                     <a class="nav-item nav-link text-body px-4" href="#">Men</a>
                     <a class="nav-item nav-link text-body px-4" href="#">Kids</a>
                     <a class="nav-item nav-link text-body px-4" href="#">Jewellery</a>
-                    <a class="nav-item nav-link text-body px-4" href="#">Accessories</a>
+                    <partial name="_LoginPartial"/>
                 </div>
             </div>
             <div class="navbar-text text-uppercase small text-dark">
@@ -53,7 +53,7 @@
 
     <footer class="container-fluid">
         <div id="footer-content" class="row h-100 d-flex justify-content-between">
-            <div class="h-100 d-flex align-items-center justify-content-center border-bottom text-secondary">Copyright 2017 RenoshopBee all right reserved  -  Design by BeeStudios</div>
+            <div class="h-100 d-flex align-items-center justify-content-center text-secondary">Copyright 2017 RenoshopBee all right reserved  -  Design by BeeStudios</div>
             <div class="h-100 d-flex align-items-center justify-content-center text-secondary">
                 <i class="fab fa-cc-visa fa-2x px-2"></i>
                 <i class="fab fa-cc-paypal fa-2x px-2"></i>

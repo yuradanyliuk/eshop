@@ -3,6 +3,7 @@
 html, body {
     font-family: 'Poppins', cursive;
 }
+
 .text-green{
     color: #3cb878;
 }
@@ -14,6 +15,11 @@ html, body {
 }
 #header-menu-bottom{
     height: 100px;
+}
+
+/*try change it*/
+main { 
+    min-height: calc(100vh - 220px);
 }
 
 footer {
